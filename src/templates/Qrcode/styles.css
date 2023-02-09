@@ -1,0 +1,35 @@
+
+
+.QRbody{
+  font-family: "outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  min-height: 100vh; /* {//tamanho minimo da tela é de 100vh= tela inteira// } */
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.QRcontainer{
+  max-width: 350px;
+  margin: 0 auto;
+}
+.QRcard{
+  background-color: #fff;
+  padding: 18px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 0 1rem;
+}
+.QRcard img{
+  width: 100%;
+  border-radius: 10px;
+}
+.QRtext{
+  padding: 22px 10px;
+}
+.QRtext h2{
+  color:hsl(218, 44%, 22%);
+  padding-bottom: 15px ;
+}
+.QRtext p {
+  color: hsl(220,15%,55%);
+}

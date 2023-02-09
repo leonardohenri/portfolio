@@ -1,0 +1,83 @@
+.HpbodyContent{
+    display: flex;
+    min-width: 100%;
+    height: 700px;
+}
+
+.Hpimg{
+    background-image: url("../../../images/Homepage/image-web-3-desktop.jpg");
+    max-width: 100%;
+    height: 500px;
+}
+.Hpcoluna2{
+    background: black;
+    margin-left: 2%;
+    padding: 10px 20px;
+}
+.Hpcoluna2 h2{
+    color: hsl(5, 85%, 63%);
+    font-size: 40px;
+    font-weight: bolder;
+}
+.Hpcoluna2 h3{
+    cursor: pointer;
+    font-size: 30px;
+}
+.Hpcoluna2 h3:hover{
+    color: rgb(218, 146, 52);
+}
+.Hpcoluna2 p {
+    font-size: 20px;
+    color:hsl(236, 13%, 42%);
+}
+.Hpcontent{
+    color: white;
+    border-bottom: 2px solid hsl(236, 13%, 42%);
+    margin-top: 25px;
+}
+.Hptext{
+    display: flex;
+
+}
+.Hptext h2{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.HpParagrafo p{
+    font-size: 20px;
+    color:hsl(236, 13%, 42%);
+    width: 400px;
+}
+.Hptext button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+@media (min-width:320px) and (max-width:700px) {
+    .HpbodyContent{
+        display: block;
+        height: auto;
+    }
+    .Hpcoluna1{
+        min-width: 100%;
+       margin: 0;
+       margin-bottom: 10px;
+    }
+    .Hpcoluna2{
+        max-width: 100%;
+        margin: 0;
+    }
+    .Hpimg{
+        min-width: 100%;
+        height: 300px;
+        background-image: url("../../../images/Homepage/image-web-3-mobile.jpg");
+    }
+    .Hptext{
+        display: block;
+    }
+}

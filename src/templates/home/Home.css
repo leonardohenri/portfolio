@@ -1,53 +1,55 @@
-.container{
+.Hcontainer{
     max-width: 80%;
     margin: 0 auto;
     min-height: 100vh;
 }
 
-.top{
+.Htop{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
-.top h1{
+.Htop h1{
     font-size: 30px;
     color: white;
 }
 
-.icons a {
+.Hicons a {
     text-decoration: none;
     margin-left: 10px;
 }
-.content{
+.Hcontent{
     display: flex;
     color: white;
+    padding-bottom: 50px;
+    border-bottom: 3px solid white;
 }
-.contentText{
+.HcontentText{
     margin-top: 200px;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
-.contentText h2{
+.HcontentText h2{
     font-size: 90px;
 }
-.contentText u {
+.HcontentText u {
     font-size: 90px;
 }
-.contentText p{
+.HcontentText p{
     text-align: justify;
     font-size: 12px;
 }
-.contentText a{
+.HcontentText a{
     width: 200px;
     font-size: 30px;
     color: white;
 }
-.content p{
+.Hcontent p{
     width: 300px;
     font-size: 20px;
 }
-.content img{
+.Hcontent img{
     width: 600px;
     height: 700px;
     position: absolute;
@@ -55,18 +57,55 @@
     z-index: -1;
     right: 10%;
 }
-.sublinhado{
+.Hsublinhado{
     text-decoration: underline;
     text-decoration-color: rgba(66, 199, 66, 0.562) ;
 }
-.projects{
+.HcontainerProjects{
     margin-top: 60px;
     border-top: 3px solid white;
 }
-.projects h2 {
+.HcontainerProjects h2 {
     font-size: 40px;
     color: white;
     text-decoration: underline;
     text-decoration-color:rgba(66, 199, 66, 0.562) ;
     margin-top: 15px;
+}
+.HgridProjects{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+
+}
+.Hproject{
+    max-width: auto;
+    height: 400px;
+}
+
+.Hproject img{
+    width: 100%;
+    height: 80%;
+}
+.HtextProject{
+    display: flex;
+    justify-content: space-between;
+
+}
+.HtextProject a{
+    text-decoration: underline;
+    text-decoration-color: rgba(66, 199, 66, 0.562) ;
+    font-size: 25px;
+    color: white;
+}
+.HtextProject p{
+    font-size: 25px;
+    color: white;
+}
+.Hlanguage{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
