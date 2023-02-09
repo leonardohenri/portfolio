@@ -1,6 +1,7 @@
 .container{
     max-width: 80%;
     margin: 0 auto;
+    min-height: 100vh;
 }
 
 .top{
@@ -8,8 +9,64 @@
     justify-content: space-between;
     margin-top: 20px;
 }
+.top h1{
+    font-size: 30px;
+    color: white;
+}
 
 .icons a {
     text-decoration: none;
     margin-left: 10px;
+}
+.content{
+    display: flex;
+    color: white;
+}
+.contentText{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.contentText h2{
+    font-size: 90px;
+}
+.contentText u {
+    font-size: 90px;
+}
+.contentText p{
+    text-align: justify;
+    font-size: 12px;
+}
+.contentText a{
+    width: 200px;
+    font-size: 30px;
+    color: white;
+}
+.content p{
+    width: 300px;
+    font-size: 20px;
+}
+.content img{
+    width: 600px;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    right: 10%;
+}
+.sublinhado{
+    text-decoration: underline;
+    text-decoration-color: rgba(66, 199, 66, 0.562) ;
+}
+.projects{
+    margin-top: 60px;
+    border-top: 3px solid white;
+}
+.projects h2 {
+    font-size: 40px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color:rgba(66, 199, 66, 0.562) ;
+    margin-top: 15px;
 }
