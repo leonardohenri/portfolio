@@ -14,7 +14,7 @@ import {AiFillDatabase} from 'react-icons/ai'
 import {AiFillApi} from 'react-icons/ai'
 
 
-import foto from "../../images/Home/retrato-de-uma-cabeça-do-leão-em-um-fundo-preto-124061955.jpg"
+import foto from "../../images/Home/foto.png"
 import { RProjects } from "../../util/array"
 
 
