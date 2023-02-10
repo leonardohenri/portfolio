@@ -16,6 +16,7 @@ import {AiFillApi} from 'react-icons/ai'
 
 import foto from "../../images/Home/foto.png"
 import { RProjects } from "../../util/array"
+import { Link } from "react-router-dom"
 
 
 
@@ -61,7 +62,7 @@ export const Home = () =>{
         <div className="HgridProjects">
           {projects.map((project) =>
             <div key={project.id} className="Hproject">
-              <a href={project.path}><img src={project.photo} alt={project.name}/></a>
+              <Link to={project.path}><img src={project.photo} alt={project.name}/></Link>
               <div className="HtextProject">
                 <p>{project.name}</p>
                 <a href={project.github} target="_blank" rel="noopener noreferrer" className="Hsublinhado">codigo</a>
