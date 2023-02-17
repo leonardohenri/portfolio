@@ -46,6 +46,7 @@
     display:flex;
     justify-content:space-around;
     align-items:center;
+    border:4px solid white; 
 }
 .Hcontent p{
     width: 400px;
