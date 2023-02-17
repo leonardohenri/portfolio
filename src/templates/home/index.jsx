@@ -37,12 +37,12 @@ export const Home = () =>{
       </div>
       <div className="Hcontent">
         <div className="HcontentText">
-          <h2>prazer em conhecer! <br/>
+          <h2>Prazer em conhecer! <br/>
               eu sou <u className="Hsublinhado">Leonardo Henrique da Silva</u>.</h2>
-              <p>sou brasileiro, estudante de engenharia da computação 9°periodo com foco em me torna desenvolvedor front-end apaixonado por tecnologia e em busca de migrar para
-              área  de programação</p>
+              <p>Sou brasileiro, estudante de engenharia da computação 9°periodo com foco em me torna desenvolvedor front-end apaixonado por tecnologia e em busca de migrar para
+              área  de programação.</p>
             
-            <a className="Hsublinhado" href="https://api.whatsapp.com/send?phone=5517997262808&text=Ol%C3%A1.%20venho%20pelo%20seu%20portf%C3%B3lio." target="_blank" rel="noopener noreferrer">contact me <BsWhatsapp size='30px' color='green'/></a>
+            <a classname="buttonwpp" href="https://api.whatsapp.com/send?phone=5517997262808&text=Ol%C3%A1.%20venho%20pelo%20seu%20portf%C3%B3lio." target="_blank" rel="noopener noreferrer">contact me <BsWhatsapp size='30px' color='green'/></a>
         </div>
           <img src={foto} alt="Foto do Leonardo" className="Hphoto" />
       </div>
