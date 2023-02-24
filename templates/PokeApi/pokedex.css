@@ -1,0 +1,46 @@
+.pokeContainer{
+  max-width: 100vw;
+  background-color: white;
+}
+.pokeGrid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
+  gap: 20px;
+}
+.pokeMenu{
+  height: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(27, 26, 27, 0.19);
+  max-width: 100vw;
+}
+.pokeMenu img{
+  height: 50px;
+}
+.pokeInput input{
+  height: 30px;
+  width: 250px;
+  margin-right: 50px;
+}
+.pokeInput input::placeholder{
+  color: black;
+  font-weight: 700;
+  
+}
+
+@media (min-width:320px) and (max-width:659px){
+  .pokeGrid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ .pokeMenu{
+  height: 100px;
+ }
+  .pokeInput input{
+    margin: 0;
+    display: block;
+  }
+}
+

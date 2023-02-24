@@ -1,0 +1,203 @@
+.Hcontainer{
+    max-width: 80%;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.Htop{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.Htop h1{
+    font-size: 30px;
+    color: white;
+}
+
+.Hicons a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+.Hcontent{
+    display: flex;
+    color: white;
+    padding-bottom: 50px;
+    border-bottom: 3px solid white;
+}
+.HcontentText{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.HcontentText h2{
+    font-size: 90px;
+}
+.HcontentText u {
+    font-size: 90px;
+}
+.HcontentText p{
+    text-align: justify;
+}
+.HcontentText a{
+    width: 200px;
+    font-size: 30px;
+    color: white;
+}
+.Hcontent p{
+    width: 400px;
+    font-size: 25px;
+}
+.Hcontent img{
+    width: 600px;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    right: 10%;
+}
+.Hsublinhado{
+    text-decoration: underline;
+    text-decoration-color: rgba(66, 199, 66, 0.562) ;
+}
+.HcontainerProjects{
+    margin-top: 60px;
+    border-top: 3px solid white;
+}
+.HcontainerProjects h2 {
+    font-size: 40px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color:rgba(66, 199, 66, 0.562) ;
+    margin-top: 15px;
+}
+.HgridProjects{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));;
+    gap: 20px;
+
+}
+.Hproject{
+    max-width: auto;
+    height: 400px;
+}
+
+.Hproject img{
+    width: 100%;
+    height: 80%;
+}
+.HtextProject{
+    display: flex;
+    justify-content: space-between;
+
+}
+.HtextProject a{
+    text-decoration: underline;
+    text-decoration-color: rgba(66, 199, 66, 0.562) ;
+    font-size: 25px;
+    color: white;
+}
+.HtextProject p{
+    font-size: 25px;
+    color: white;
+}
+.Hlanguage{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+    text-align: center;
+}
+
+@media (min-width:1050px) and (max-width:1650px) {
+    .HcontainerText{
+        max-width: 50%;
+    }
+    .Hcontent img{
+        max-width: 40%;
+        max-height: 70%;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        right: 10%;
+    }
+    .HcontentText h2{
+        font-size: 40px;
+    }
+    .HcontentText u {
+        font-size: 40px;
+    }
+}
+@media (min-width:700px) and (max-width:1049px){
+    .Hcontent img{
+       max-width: 40%;
+       max-height: 60%;
+       margin-top: 0;
+    }
+    .HcontainerText{
+        max-width: 50%;
+    }
+    .HcontentText h2{
+        font-size: 30px;
+    }
+    .HcontentText u {
+        font-size: 30px;
+    }
+    .Hcontent p{
+        width: 40%;
+        font-size: 15px;
+    }
+}
+@media (min-width:450px) and (max-width:699px){
+    .Hcontent img{
+       height: 300px;
+       width: 300px;
+       position: absolute;
+       display: block;
+       margin-top: 100px;
+    }
+    .HcontentText{
+        max-width: 100%;
+        margin-top: 400px;
+    }
+    .HcontentText h2{
+        font-size: 30px;
+    }
+    .HcontentText u {
+        font-size: 30px;
+    }
+    .Hcontent p{
+        max-width: 100%;
+        font-size: 15px;
+    }
+}
+@media (min-width:320px) and (max-width:449px){
+    .Hcontainer{
+        min-width: 95vw;
+    }
+    .Hcontent img{
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        display: block;
+        margin-top: 100px;
+     }
+     .HcontentText{
+         max-width: 100%;
+         margin-top: 300px;
+     }
+     .HcontentText h2{
+         font-size: 30px;
+     }
+     .HcontentText u {
+         font-size: 30px;
+     }
+     .Hcontent p{
+         max-width: 100%;
+         font-size: 15px;
+     }
+     .Htop h1{
+        font-size: 20px;
+     }
+}
