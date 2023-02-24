@@ -60,7 +60,7 @@ gap: 30px;
     min-width: 95%;
     gap: 30px;
     position: absolute;
-    top: 420px;
+    top: 460px;
     text-align: center;
   }
   .DDdivImage{
@@ -70,9 +70,7 @@ gap: 30px;
   }
   .DDcolumn-two{
     min-width: 100%;
-    position: absolute;
-    top: 30px;
-    z-index: -1;
+    margin-top: 30px;
   }
   .DDcolumn-one h1{
     margin-top: 100px;

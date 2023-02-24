@@ -1,0 +1,42 @@
+.formulario{
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.formulario input{
+    margin: 10px;
+    min-width: 95%;
+    height: 40px;
+    text-indent: 10px;
+      
+    
+}
+.formulario button{
+    margin-left: 10PX;
+    width: 95%;
+    height: 30px;
+    color:white;
+    border-radius: 10px;
+    background-color: hsl(154, 59%, 51%);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.teste{
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.terms{
+    color:red;
+    cursor: pointer;
+}
+.error{
+    color: red;
+    margin-left: 10px;
+}
+@media (min-width:320px) and (max-width:700px){
+    .formulario input{
+        height: 30px;
+    }
+}

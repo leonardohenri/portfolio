@@ -9,6 +9,7 @@ import {Faq} from './templates/Faq'
 import { FormPage } from './templates/Form';
 import { Home } from './templates/home';
 import {Homepage} from './templates/Homepage'
+import { Pokedex } from './templates/PokeApi/pokedex';
 import {Qrcode} from './templates/Qrcode'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,6 +24,7 @@ root.render(
         <Route path='/homepage' element={<Homepage/>}/>
         <Route path='/qrcode' element={<Qrcode/>}/>
         <Route path='/calculator' element={<Calculator/>}/>
+        <Route path='/pokedex' element={<Pokedex/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

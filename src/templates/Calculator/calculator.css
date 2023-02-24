@@ -6,21 +6,26 @@
   background:hsl(185, 41%, 84%)
 }
 .grid{
-  width: 700px;
-  height: 400px;
+  width: 1000px;
+  height: 500px;
   margin: auto;
   display: flex;
   background-color: hsl(0, 0%, 100%);
   padding: 30px;
   border-radius: 20px;
-  gap: 10px;
+  gap: 10%;
 }
 .coluna1{
-  min-width:50%;
+  min-width:45%;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-around; 
+}
+.coluna1 p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 700;
 }
 .coluna2 {
   background: hsl(183, 100%, 15%);
@@ -28,10 +33,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  min-width: 50%;
+  min-width: 45%;
   border-radius: 10px;
 }
-
 .gridButton{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -57,9 +61,6 @@
   border: 3px solid hsl(183, 100%, 15%) ;
   transform: scale(1.02);
 }
-.custom{
-  
-}
 
 .bill-radio{
   display: none;
@@ -73,7 +74,7 @@
   background-color: hsl(180, 6%, 94%);
 }
 .input{
-  min-width: 96%;
+  min-width: 100%;
   height: 30px;
   border: none;
   border-radius:10px ;
@@ -84,6 +85,12 @@
   justify-content: space-between;
   margin: 30px;
   align-items: center;
+  
+}
+.valor p{
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
 }
 .btn{
   width: 80%;
@@ -93,11 +100,15 @@
   background: hsl(152, 92%, 34%);
   border: none;
   border-radius: 10px;
+  font-size: 30px;
+  font-weight: 600;
 }
 @media (min-width:320px) and (max-width:700px){
   .grid{
     height: auto;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
   .coluna1{
     margin-bottom: 10px;

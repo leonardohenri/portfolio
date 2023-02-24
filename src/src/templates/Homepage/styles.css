@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.Hpbody {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: hsl(36, 100%, 99%);
+    font-family:'inter', sons-serif ;
+    position: absolute;
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    align-items: center;
+}
+.topo h1{
+    font-size: 20px;
+}
+.tela{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.top3{
+    max-width: 100%;
+    margin-top: 60px;
+    display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   column-gap: 60px;
+    
+}
+.post{
+    display: flex;
+}
+.post img{
+    height:100%;
+    width: 150px;
+    margin-right: 20px;
+}
+.pContent{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap:10px;
+    
+}
+.id{
+    font-size: 50px;
+    font-weight: 900;
+}
+.pContent p{
+    margin: 0;
+    font-size: 20px;
+}
+.pContent h2{
+    margin: 0;
+    font-size: 30px;
+}
+
+@media (min-width:320px) and (max-width:700px){
+    .top3{
+        display:grid;
+        grid-template-columns: auto;
+        gap: 20px;
+        
+    }
+}

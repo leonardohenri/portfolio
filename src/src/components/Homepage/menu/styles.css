@@ -1,0 +1,36 @@
+
+#Hpmenu ul{
+display: flex;
+list-style:none;
+}
+#Hpmenu li {
+    margin-right: 10px;
+}
+#Hpmenu a{
+    font-size: 20px;
+    text-decoration: none;
+    color:hsl(236, 13%, 42%);
+}
+#HpbuttonMenu img{
+    display: none;
+}
+#HpbuttonClose{
+    display: none;
+    float: right;
+}
+@Media (min-width:320px) and (max-width:700px){
+    #Hpmenu{
+        display: none;
+        margin: 20px;
+       
+    }
+    #HpbuttonMenu img{
+        display: block;
+        cursor: pointer;
+    }
+    #Hpmenu ul{
+        display: block;
+        margin: 0 10px;
+    }
+
+}

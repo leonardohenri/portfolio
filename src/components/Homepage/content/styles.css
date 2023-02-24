@@ -1,5 +1,6 @@
 .HpbodyContent{
     display: flex;
+    gap: 20px;
     min-width: 100%;
     height: 700px;
 }
@@ -11,8 +12,9 @@
 }
 .Hpcoluna2{
     background: black;
-    margin-left: 2%;
     padding: 10px 20px;
+    max-height: 100vh;
+    overflow-y: scroll;
 }
 .Hpcoluna2 h2{
     color: hsl(5, 85%, 63%);
@@ -57,6 +59,17 @@
     color: white;
     font-size: 20px;
     cursor: pointer;
+}
+@media (min-width:700px) and (max-width:970px){
+    .HpbodyContent{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        height: auto;
+    }
+    .Hpcoluna2{
+        margin: 0;
+    }
 }
 @media (min-width:320px) and (max-width:700px) {
     .HpbodyContent{
