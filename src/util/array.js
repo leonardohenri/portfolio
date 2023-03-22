@@ -5,6 +5,7 @@ import homepage from "../images/Home/homepage.png"
 import tipcalculator from "../images/Home/tip-calculator.png"
 import qrcode from "../images/Home/qrcode.png"
 import pokeapi from "../images/Home/PokeApi.png"
+import cadastroClient from "../images/Home/cadastroCliente.png"
 
 const projects = [
     {id:1, 
@@ -48,7 +49,13 @@ const projects = [
         name:"Pokedex",
         path:"pokedex",
         github:"https://github.com/leonardohenri/pokedex"
-    }
+    },
+    {id:8,
+        photo:cadastroClient,
+        name:"Crud",
+        path:"crud",
+        github:"https://github.com/leonardohenri/cadastro-cliente" 
+}
 ]
 export const RProjects = () =>{
     return projects;

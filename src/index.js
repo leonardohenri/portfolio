@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './global.css';
+import { Crud } from './templates/cadastroClient';
 import { Calculator } from './templates/Calculator';
 
 import { Dropdown } from './templates/dropdown';
@@ -25,6 +26,7 @@ root.render(
         <Route path='/qrcode' element={<Qrcode/>}/>
         <Route path='/calculator' element={<Calculator/>}/>
         <Route path='/pokedex' element={<Pokedex/>}/>
+        <Route path ='/crud' element={<Crud/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
