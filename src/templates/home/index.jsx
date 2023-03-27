@@ -29,10 +29,10 @@ export const Home = () =>{
       <div className="Htop">
         <h1>LeonardoSilva </h1>
         <div className="Hicons">
-          <a href="https://instagram.com/leonardohenri15?igshid=ZDdkNTZiNTM=" target="_blank" rel="noreferrer noopener"><AiFillInstagram size='30px' color="black"/></a>
-          <a href="https://www.linkedin.com/in/leonardo-henrique-da-silva-32110815a/" target="_blank" rel="noreferrer noopener"><AiFillLinkedin size='30px' color="black"/></a>
-          <a href="https://github.com/leonardohenri" target="_blank" rel="noreferrer noopener"><AiFillGithub size='30px' color="black"/></a>
-          <a href="https://www.facebook.com/leonardo.henriquedasilva.92/" target="_blank" rel="noopener noreferrer"><AiFillFacebook size='30px' color="black"/></a>
+          <a href="https://instagram.com/leonardohenri15?igshid=ZDdkNTZiNTM=" target="_blank" rel="noreferrer noopener"><AiFillInstagram size='30px' color="white"/></a>
+          <a href="https://www.linkedin.com/in/leonardo-henrique-da-silva-32110815a/" target="_blank" rel="noreferrer noopener"><AiFillLinkedin size='30px' color="white"/></a>
+          <a href="https://github.com/leonardohenri" target="_blank" rel="noreferrer noopener"><AiFillGithub size='30px' color="white"/></a>
+          <a href="https://www.facebook.com/leonardo.henriquedasilva.92/" target="_blank" rel="noopener noreferrer"><AiFillFacebook size='30px' color="white"/></a>
         </div>
       </div>
       <div className="Hcontent">

@@ -55,13 +55,10 @@
     width: 400px;
     font-size: 25px;
 }
-.Hcontent img{
+.Hphoto{
     width: 600px;
     height: 700px;
-    position: absolute;
-    top: 0;
-    z-index: -1;
-    right: 10%;
+    border: 10px solid white;
 }
 .Hsublinhado{
     text-decoration: underline;
@@ -81,13 +78,15 @@
 .HgridProjects{
     margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 
 }
 .Hproject{
     max-width: auto;
     height: 400px;
+    padding: 10px;
+    border: 2px solid white;
 }
 
 .Hproject img{
@@ -121,12 +120,8 @@
     .HcontainerText{
         max-width: 50%;
     }
-    .Hcontent img{
+    .Hphoto{
         max-width: 40%;
-        max-height: 70%;
-        position: absolute;
-        top: 0;
-        z-index: -1;
         right: 10%;
     }
     .HcontentText h2{
@@ -137,10 +132,9 @@
     }
 }
 @media (min-width:700px) and (max-width:1049px){
-    .Hcontent img{
+    .Hphoto{
        max-width: 40%;
-       max-height: 60%;
-       margin-top: 0;
+       height: 60%;
     }
     .HcontainerText{
         max-width: 50%;
@@ -157,12 +151,12 @@
     }
 }
 @media (min-width:450px) and (max-width:699px){
-    .Hcontent img{
+    .Hphoto{
        height: 300px;
        width: 300px;
        position: absolute;
        display: block;
-       margin-top: 100px;
+       margin-top: 50px;
     }
     .HcontentText{
         max-width: 100%;
@@ -183,12 +177,13 @@
     .Hcontainer{
         min-width: 95vw;
     }
-    .Hcontent img{
+    .Hphoto{
         height: 250px;
         width: 250px;
         position: absolute;
         display: block;
-        margin-top: 100px;
+        margin-top: 20px;
+        left: 10%
      }
      .HcontentText{
          max-width: 100%;
