@@ -38,6 +38,8 @@
 }
 .HcontentText p{
     text-align: justify;
+    max-width: 700px;
+    font-size: 40px;
 }
 .HcontentText a{
     width: 200px;
@@ -52,8 +54,8 @@
     text-decoration: none;
 }
 .Hphoto{
-    width: 600px;
-    height: 700px;
+    width: 400px;
+    height: 400px;
     border: 10px solid white;
 }
 .Hsublinhado{
@@ -113,18 +115,26 @@
 }
 
 @media (min-width:1050px) and (max-width:1650px) {
+    .Hcontent{
+        display: flex;
+        justify-content: space-between;
+    }
     .HcontainerText{
         max-width: 50%;
     }
     .Hphoto{
         max-width: 40%;
-        right: 10%;
+        
     }
     .HcontentText h2{
         font-size: 40px;
     }
     .HcontentText u {
         font-size: 40px;
+    }
+    .HcontentText p {
+        font-size: 25px;
+        max-width: 50%;
     }
 }
 @media (min-width:700px) and (max-width:1049px){
@@ -142,8 +152,8 @@
         font-size: 30px;
     }
     .Hcontent p{
-        width: 40%;
-        font-size: 15px;
+        width: 50%;
+        font-size: 20px;
     }
 }
 @media (min-width:450px) and (max-width:699px){
@@ -153,6 +163,7 @@
        position: absolute;
        display: block;
        margin-top: 50px;
+       left: 10%;
     }
     .HcontentText{
         max-width: 100%;
@@ -170,9 +181,10 @@
     }
 }
 @media (min-width:320px) and (max-width:449px){
-    .Hcontainer{
-        min-width: 95vw;
-    }
+   .Hcontent{
+    max-width: 98vw;
+    margin: 0 auto;
+   }
     .Hphoto{
         height: 250px;
         width: 250px;
@@ -184,6 +196,7 @@
      .HcontentText{
          max-width: 100%;
          margin-top: 300px;
+         
      }
      .HcontentText h2{
          font-size: 30px;
@@ -198,4 +211,9 @@
      .Htop h1{
         font-size: 20px;
      }
+     .Hproject{
+        padding: 0;
+        border: none;
+     }
+   
 }
