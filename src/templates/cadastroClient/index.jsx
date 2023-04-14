@@ -10,7 +10,7 @@ export const  Crud = () =>{
  const [estados, setEstados] = useState(); 
  const [cidade, setCidade] = useState();
  const [disabled, setDisabled] = useState(true);
- const [url, setUrl] = useState('https://leonardoportfolio.herokuapp.com/')
+ const [url, setUrl] = useState('https://servidor-express.onrender.com/')
  
   useEffect(()=>{
     axios.get(`${url}getCards`).then((res)=>(setCard(res.data)));
