@@ -65,6 +65,7 @@ export const Home = () =>{
               <Link to={project.path}><img src={project.photo} alt={project.name}/></Link>
               <div className="HtextProject">
                 <p>{project.name}</p>
+                <p>{project.data}</p>
                 <a href={project.github} target="_blank" rel="noopener noreferrer" className="Hsublinhado">codigo</a>
               </div>
             </div>
