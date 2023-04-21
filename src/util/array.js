@@ -67,7 +67,7 @@ const projects = [
 },
 {id:9,
     photo:ControleFinanceiro,
-    nome:'Controle financeiro',
+    name:'Controle financeiro',
     path:"https://master--superb-treacle-f67f73.netlify.app/",
     data:'20/04/2023',
     github:"https://github.com/leonardohenri/controle-financeiro-crud"
